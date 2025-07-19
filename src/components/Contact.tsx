@@ -38,7 +38,7 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-gradient-secondary">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent leading-tight pb-2">
             Let's Work Together
           </h2>
           <p className="text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">

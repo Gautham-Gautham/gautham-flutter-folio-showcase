@@ -26,8 +26,8 @@ const Skills = () => {
   ];
 
   const featuredSkills = [
-    "Flutter", "Dart", "Firebase", "Provider", "Riverpod", "GetX", 
-    "SQL", "Git", "GitHub", "Rest APIs", "Push Notification", 
+    "Flutter", "Dart", "Firebase", "Provider", "Riverpod", "GetX",
+    "SQL", "Git", "GitHub", "Rest APIs", "Push Notification",
     "Cross-platform app development", "Time Management", "Multitasking",
     "Product Development", "Problem-Solving", "Supabase", "Flutter Flow"
   ];
@@ -36,13 +36,13 @@ const Skills = () => {
     <section id="skills" className="py-20 bg-gradient-secondary">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 bg-gradient-primary bg-clip-text text-transparent">
-            Skills & Technologies
+          {/* <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 bg-gradient-primary bg-clip-text text-transparent"> */}
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 bg-gradient-primary bg-clip-text text-transparent leading-tight pb-2">   Skills & Technologies
           </h2>
           <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
             A comprehensive overview of my technical expertise and development capabilities
           </p>
-          
+
           {/* Featured Skills Cloud */}
           <Card className="mb-12 bg-card/50 backdrop-blur-sm border-primary/20">
             <CardHeader>
@@ -51,7 +51,7 @@ const Skills = () => {
             <CardContent>
               <div className="flex flex-wrap justify-center gap-3">
                 {featuredSkills.map((skill, index) => (
-                  <Badge 
+                  <Badge
                     key={skill}
                     variant="secondary"
                     className="text-sm py-2 px-4 bg-gradient-primary text-primary-foreground hover:shadow-glow-primary transition-all duration-300"
@@ -69,7 +69,7 @@ const Skills = () => {
           {/* Categorized Skills */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {skillCategories.map((category, index) => (
-              <Card 
+              <Card
                 key={category.title}
                 className="bg-card/50 backdrop-blur-sm border-primary/20 hover:shadow-glow-secondary transition-all duration-300"
                 style={{

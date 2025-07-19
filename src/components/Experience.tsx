@@ -5,11 +5,11 @@ import { Building, Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Flutter Developer",
+      title: "Flutter & FlutterFlow Developer",
       company: "Hancod Digital",
       location: "Preinthalmanna, India",
       period: "Dec 2024-Current",
-      projects: "Duxbe (ERP), iLovenge, DineNorder, Kasicon",
+      projects: "Duxbe (ERP), iLovenge(FlutterFlow), DineNorder, Kasicon, Fan Match(FlutterFlow), JosApp(FlutterFlow)",
       achievements: [
         "Implemented the application UI and developed reusable custom widgets to speed up application development",
         "Worked on new products and updated functionality of existing software systems"
@@ -43,7 +43,7 @@ const Experience = () => {
       company: "First Logic Meta Lab Pvt Ltd",
       location: "Preinthalmanna, India",
       period: "Jun 2023-May 2024",
-      projects: "Arooha Tours and Travels, Flit online Portal",
+      projects: "Arooha Tours and Travels, Flit online Portal, Jobo",
       achievements: [
         "Implemented the application UI and developed reusable custom widgets to speed up application development",
         "Worked on new products and updated functionality of existing software systems",
